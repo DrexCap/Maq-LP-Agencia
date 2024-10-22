@@ -127,6 +127,79 @@ body {
     border-radius: 0.4rem;
 }
 
+/* Section */
+
+.section {
+    padding-top: 10rem;
+}
+
+.clients_container {
+    text-align: center;
+}
+
+.section_header {
+    margin-bottom: 5rem;
+}
+
+.section_title {
+    font-size: 3.6rem;
+    font-weight: 500;
+    color: var(--color-secondary);
+}
+
+.section_text {
+    color: var(--color-secondary);
+}
+
+.clients_wrapper {
+    width: 100%;
+    /* Puso mis clientes img uno debajo de otro */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-gap: 3rem;
+}
+
+.clients_wrapper > span {
+    text-align: center;
+}
+
+/* Services */
+
+.services_contianer {
+    text-align: center;
+}
+
+.services {
+    width: 100%;
+    /* Puso mis clientes img uno debajo de otro */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    grid-gap: 5rem;
+}
+
+.service {
+    padding: 1.5rem 0.5rem;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.144);
+}
+
+.service_title {
+    color: var(--color-secondary);
+    margin: 1rem 0rem;
+}
+
+.service_text {
+    color: var(--color-secondary);
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
